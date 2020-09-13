@@ -45,7 +45,7 @@ router.put('/api/workouts/:id', (req, res) => {
 
 router.get('/api/workouts', (req, res) => {
   // Replace <METHOD> with method to Find all workouts from collection
-  db.Workout.find({})
+  db.Workout.find()
 
 
     // Fill in .then() with call back function that takes result from db as input argument and send it back to browser
